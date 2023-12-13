@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(119, 119, 209);
+        }
+
+        td {
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(184, 210, 219);
+        }
+
+        .error {
+            background-color: rgb(241, 182, 182);
+            color: rgb(99, 6, 6);
+        } */
+
+        /* sitr nav */
+        /* desktop first view */
+        .site-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        /* mobile view */
+        @media(max-width:768px) {
+            .site-nav {
+                flex-direction: column;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form>
+        <input type="text" class="input-control" value="predefined value">
+        <input type="number" class="input-control" id="age">
+        <input type="email" class="input-control" placeholder="Add your email">
+        <input type="password" class="input-control" required>
+        <input type="color" class="input-control" required>
+        <input type="date" class="input-control" disabled>
+
+        <button>Add</button>
+    </form>
+    <form>
+        <label>Select an option:</label>
+        <select>
+            <option value="opt1">1</option>
+            <option value="opt2">2</option>
+            <option value="opt3">3</option>
+        </select>
+    </form>
+
+    <div>
+        <form>
+            <h1>Product Exercise:</h1>
+            <input type="text" class="input-control" placeholder="Product Name">
+            <input type="text" class="input-control" placeholder="Description" disabled>
+            <input type="Number" class="input-control" placeholder="Price">
+            <label>Color of product:</label>
+            <input type="color" class="input-control" required>
+            <label>Select Payment Method:</label>
+            <select>
+                <option value="venmo">Venmo</option>
+                <option value="zelle">Zelle</option>
+                <option value="cashapp">CashApp</option>
+            </select>
+            <button>Add</button>
+
+        </form>
+
+    </div>
+    <table>
+        <thead>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td class="error">Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <th>EmpId</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>E342</td>
+                <td>Bill</td>
+                <td>Evans</td>
+                <td>Bill@decurry.com</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>E343</td>
+                <td>Laura</td>
+                <td>Matt</td>
+                <td>laura@devcurry.com</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>E344</td>
+                <td>Ram</td>
+                <td>Kumar</td>
+                <td>ram@devcurry.com</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>E345</td>
+                <td>Yuri</td>
+                <td>Gargin</td>
+                <td>yuri@devcurry.com</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>E346</td>
+                <td>Asha</td>
+                <td>Singh</td>
+                <td>asha@devcurry.com</td>
+                <td>42</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <nav class="site-nav">
+        <a class="link">Link 1</a>
+        <a class="link">Link 2</a>
+        <a class="link">Link 3</a>
+
+    </nav>
+</body>
+
+</html>
